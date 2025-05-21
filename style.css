@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+/* Estilo do body */
+body {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo geral do formulário */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos inputs e campos */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Estilo do botão */
+button[type="submit"] {
+  background-color: #f24902;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  margin-top: 15px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+  background-color: #d13e00;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+
+  button[type="submit"] {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+label{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
